@@ -5,6 +5,14 @@
 #' The function calculates Cramer's V based on the results
 #' of an Chi-Square-Test of Independence between two
 #' categorical variables
+#' @param x a vector (categorical or numerical values)
+#' @param y a vector (categorical or numerical values)
+#'
+#' @return Cramer's V
+#' @export
+#'
+#' @examples
+#'cv.test(x = iris$Species, iris$Sepal.Length)
 
 # Function Cramer's V ------------------------------------------------------
 

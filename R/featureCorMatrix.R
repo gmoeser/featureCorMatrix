@@ -7,6 +7,14 @@
 #' If both variable are numerical ones, the PM correlation coefficient will be chosen
 #' If both variables are categorical, Cramer's V will be used
 #' If one variable is a numerical and the other a categorical one, the ICC will be calculated
+#' @param dataframe A data.frame
+#' @param absoluteValues A flag stating if only positive correlations should be returned
+#'
+#' @return A correlation matrix
+#' @export
+#'
+#' @examples
+#' featureCorMatrix(dataframe = iris, absoluteValues = TRUE)
 
 # Function Feature Matrix  ------------------------------------------------------
 

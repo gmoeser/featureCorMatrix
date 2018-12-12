@@ -6,6 +6,14 @@
 \usage{
 featureCorMatrix(dataframe, absoluteValues = FALSE)
 }
+\arguments{
+\item{dataframe}{A data.frame}
+
+\item{absoluteValues}{A flag stating if only positive correlations should be returned}
+}
+\value{
+A correlation matrix
+}
 \description{
 \code{featureCorMatrix} returns a correlation matrix between all features
 }
@@ -15,4 +23,7 @@ coefficient regarding the storage type of both variables
 If both variable are numerical ones, the PM correlation coefficient will be chosen
 If both variables are categorical, Cramer's V will be used
 If one variable is a numerical and the other a categorical one, the ICC will be calculated
+}
+\examples{
+featureCorMatrix(dataframe = iris, absoluteValues = TRUE)
 }

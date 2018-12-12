@@ -6,6 +6,14 @@
 \usage{
 cv.test(x, y)
 }
+\arguments{
+\item{x}{a vector (categorical or numerical values)}
+
+\item{y}{a vector (categorical or numerical values)}
+}
+\value{
+Cramer's V
+}
 \description{
 \code{cv.test} returns the Cramer's V correlation coefficient
 }
@@ -13,4 +21,7 @@ cv.test(x, y)
 The function calculates Cramer's V based on the results
 of an Chi-Square-Test of Independence between two
 categorical variables
+}
+\examples{
+cv.test(x = iris$Species, iris$Sepal.Length)
 }

@@ -4,6 +4,14 @@
 #'
 #' The function calculates the Intraclass Correlation Coefficient
 #' based on the results of the aov() function
+#' @param depvar dependent variable, must be numeric
+#' @param indvar independent variable, must be categorical
+#'
+#' @return returns the intraclass correlation coefficient (ICC)
+#' @export
+#'
+#' @examples
+#' icc(depvar = iris$Sepal.Length, indvar = iris$Species)
 
 ## Function to calculate the ICC based on an Analysis of Variance (aov)
 icc <- function(depvar, indvar) {

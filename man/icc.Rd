@@ -6,10 +6,21 @@
 \usage{
 icc(depvar, indvar)
 }
+\arguments{
+\item{depvar}{dependent variable, must be numeric}
+
+\item{indvar}{independent variable, must be categorical}
+}
+\value{
+returns the intraclass correlation coefficient (ICC)
+}
 \description{
 \code{icc} returns the intraclass correlation coefficient
 }
 \details{
 The function calculates the Intraclass Correlation Coefficient
 based on the results of the aov() function
+}
+\examples{
+icc(depvar = iris$Sepal.Length, indvar = iris$Species)
 }

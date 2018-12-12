@@ -1,0 +1,35 @@
+#' Statlog (German Credit Data) Data Set
+#'
+#' This dataset classifies people described by a set of attributes as good or bad credit risks.
+#' The variables are as follows:
+#'
+#' \itemize{
+#'   \item Credit. Target variable
+#'   \item balance_credit_acc. Status of existing checking account
+#'   \item duration. Duration in month
+#'   \item moral. Credit history
+#'   \item verw. Purpose
+#'   \item hoehe. Credit amount
+#'   \item sparkont. Savings account/bonds
+#'   \item beszeit. Present employment since
+#'   \item rate. Installment rate in percentage of disposable income
+#'   \item famges. Personal status and sex
+#'   \item buerge. Other debtors / guarantors
+#'   \item wohnzeit. Present residence since
+#'   \item verm. Property
+#'   \item alter. Age in years
+#'   \item weitkred. Other installment plans
+#'   \item wohn. Housing
+#'   \item bishkred. Number of existing credits at this bank
+#'   \item beruf. Job
+#'   \item pers. Number of people being liable to provide maintenance for
+#'   \item telef. Telephone
+#'   \item gastarb. Foreign worker
+#' }
+#'
+#' @docType data
+#' @keywords datasets
+#' @name GermanCredit
+#' @usage data(GermanCredit)
+#' @format A data frame with 1000 rows and 21 variables
+NULL
