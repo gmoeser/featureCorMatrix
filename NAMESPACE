@@ -1,0 +1,3 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "anova", "aov", "chisq.test", "cor", "formula")
+
