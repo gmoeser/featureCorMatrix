@@ -88,5 +88,5 @@ featureCorMatrix <- function(dataframe, absoluteValues = FALSE) {
 
   ## return results in a list
   featureMatrix.list <- list(correlationMatrix = correlationMatrix, corrTypeMatrix = corrTypeMatrix)
-
+  return(featureMatrix.list)
   }
