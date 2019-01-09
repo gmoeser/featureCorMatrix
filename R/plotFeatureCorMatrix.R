@@ -2,7 +2,7 @@
 
 #' Title
 #'
-#' @param listCorMatrix
+#' @param listCorMatrix list with matrix values and matrix type
 #'
 #' @return
 #' @export
