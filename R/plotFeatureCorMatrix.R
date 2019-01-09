@@ -4,7 +4,7 @@
 #'
 #' @param listCorMatrix list with matrix values and matrix type
 #'
-#' @return
+#' @return heatmap plot corresponding to the matrix values
 #' @export
 #'
 #' @examples
