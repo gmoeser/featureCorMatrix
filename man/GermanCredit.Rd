@@ -4,7 +4,9 @@
 \name{GermanCredit}
 \alias{GermanCredit}
 \title{Statlog (German Credit Data) Data Set}
-\format{A data frame with 1000 rows and 21 variables}
+\format{
+A data frame with 1000 rows and 21 variables
+}
 \usage{
 data(GermanCredit)
 }

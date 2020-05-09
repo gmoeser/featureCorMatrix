@@ -1,8 +1,8 @@
 Package: featureCorMatrix
 Type: Package
-Title: Print out a correlation matrix of all features independently of 
+Title: Generate a correlation matrix of all features independently of 
     measurement level of the input variables
-Version: 0.1.0
+Version: 0.4.0
 Authors@R: c(person("Guido", "Moeser", role = c("aut", "cre"),
                      email = "guido.moeser@masem.de"),
               person("Ilja", "Muhl", role = "aut"))
@@ -19,4 +19,4 @@ Imports:
     ggplot2
 Suggests:
     RColorBrewer
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
