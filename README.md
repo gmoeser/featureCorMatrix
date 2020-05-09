@@ -1,7 +1,7 @@
 # featureMatrix
 R package Feature Correlation Matrix
 
-Status: Currently under development
+Status: First version (0.4.0) ready to get pushed to CRAN, minor changes under development already !
 
 Authors:
 Dr. Guido Möser/ Ilja Muhl (in alphabetical order)
