@@ -20,7 +20,7 @@
 
 # Update necessary: Violation of assumptions of Chi²-Test!
 cv.test = function(x,y) {
-  CV = sqrt(suppressWarnings(chisq.test(x, y, correct=FALSE))$statistic /
-    (length(x) * (min(length(unique(x)),length(unique(y))) - 1)))
-  return(as.numeric(CV))
+  CV = base::sqrt(base::suppressWarnings(stats::chisq.test(x, y, correct = FALSE))$statistic /
+    (base::length(x) * (base::min(base::length(base::unique(x)),base::length(base::unique(y))) - 1)))
+  return(base::as.numeric(CV))
 }

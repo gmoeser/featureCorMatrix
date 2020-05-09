@@ -17,9 +17,9 @@
 icc <- function(depvar, indvar) {
   # depvar should be measurement level scale
   # indvar should be measurement level categorical
-  formulaVar <- formula(paste("depvar"," ~ ", "indvar"))
-  sumSq <- anova(aov(formulaVar))$`Sum Sq`
-  icc <- sqrt(sumSq[1]/sum(sumSq))
+  formulaVar <- stats::formula(paste("depvar"," ~ ", "indvar"))
+  sumSq <- stats::anova(stats::aov(formulaVar))$`Sum Sq`
+  icc <- base::sqrt(sumSq[1]/sum(sumSq))
   return(icc)
   }
 

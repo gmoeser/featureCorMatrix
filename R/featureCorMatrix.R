@@ -51,10 +51,10 @@ featureCorMatrix <- function(dataframe, absoluteValues = FALSE) {
       colFeature <- df[[col]]
       if (is.numeric(rowFeature)) {
         if (is.numeric(colFeature)) {
-          correlationMatrix[row,col] <- cor(rowFeature,colFeature,use = "pairwise.complete.obs")
+          correlationMatrix[row,col] <- stats::cor(rowFeature,colFeature,use = "pairwise.complete.obs")
           corrTypeMatrix[row,col] <- "cor"
         }
-        else { # num row, cat col
+        else {# num row, cat col
           correlationMatrix[row, col] <- icc(depvar = df[[row]], indvar = df[[col]])
           corrTypeMatrix[row,col] <- "icc"
         }
