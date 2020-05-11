@@ -1,0 +1,9 @@
+
+! fmtutil [ERROR]: -user mode but path setup is -sys type, bailing out.
+! ...do M<f6>ser\AppData\Roaming\TinyTeX\bin\win32\runscript.tlu:915: command failed with exit code 1:
+! perl.exe "c:\Users\Dr. Guido M<f6>ser\AppData\Roaming\TinyTeX\texmf-dist\scripts\texlive\fmtutil.pl"  --user --byfmt pdflatex
+! Running the command C:\Users\Dr. Guido M<f6>ser\AppData\Roaming\TinyTeX\bin\win32\fmtutil-user.exe
+
+! kpathsea: Running mktexfmt pdflatex.fmt
+
+! The command name is C:\Users\Dr. Guido M<f6>ser\AppData\Roaming\TinyTeX\bin\win32\mktexfmt
