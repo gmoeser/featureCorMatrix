@@ -1,7 +1,6 @@
 Package: featureCorMatrix
 Type: Package
-Title: Generates a correlation matrix of all features independently of 
-    measurement level of the input variables
+Title: Measurement Level Independent Feature Correlation Matrix 
 Version: 0.4.0
 Authors@R: c(person("Guido", "Moeser", role = c("aut", "cre"),
                      email = "guido.moeser@masem.de"),
@@ -9,12 +8,10 @@ Authors@R: c(person("Guido", "Moeser", role = c("aut", "cre"),
 Maintainer: Guido Moeser <guido.moeser@masem.de>
 Description: Uses three different correlation coefficients to
     calculate correlations in a feature matrix: PM Coefficient,
-    ICC, Cramer's V.
+    ICC, Cramers V.
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 Imports:
     stats
-Suggests:
-    RColorBrewer
 RoxygenNote: 7.1.0
