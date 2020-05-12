@@ -8,7 +8,7 @@ Authors@R: c(person("Guido", "Moeser", role = c("aut", "cre"),
 Maintainer: Guido Moeser <guido.moeser@masem.de>
 Description: Uses three different correlation coefficients to
     calculate correlations in a feature matrix: PM Coefficient,
-    ICC, Cramers V.
+    ICC, Cramér's V.
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
