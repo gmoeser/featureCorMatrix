@@ -7,8 +7,9 @@ Authors@R: c(person("Guido", "Moeser", role = c("aut", "cre"),
               person("Ilja", "Muhl", role = "aut"))
 Maintainer: Guido Moeser <guido.moeser@masem.de>
 Description: Uses three different correlation coefficients to
-    calculate correlations in a feature matrix: PM Coefficient,
-    ICC and Cramer's V.
+    calculate measurement-level adequate correlations in a feature matrix: 
+    Pearson product-moment correlation coefficient,
+    Intraclass correlation and Cramer's V.
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
